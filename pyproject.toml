@@ -1,0 +1,12 @@
+[project]
+name = "revolut-transaction-converter"
+version = "1.0.0"
+description = "Revolut transaction converter scripts."
+requires-python = ">=3.13"
+dependencies = [
+  "pandas",
+  "pandas-stubs",
+  "pytest",
+  "python-dotenv",
+  "requests",
+]
